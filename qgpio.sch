@@ -1,0 +1,653 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SparkFun-Connectors:I2C_STANDARDQWIIC J1
+U 1 1 6096AA4C
+P 1100 1300
+F 0 "J1" H 1058 1910 45  0000 C CNN
+F 1 "I2C_STANDARDQWIIC" H 1058 1826 45  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 1100 1800 20  0001 C CNN
+F 3 "" H 1100 1300 50  0001 C CNN
+F 4 "CONN-13729" H 1058 1731 60  0000 C CNN "Field4"
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:PCF8574A U1
+U 1 1 60970D2E
+P 3000 2500
+F 0 "U1" H 3000 3381 50  0000 C CNN
+F 1 "PCF8574A" H 3000 3290 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3000 2500 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 3000 2500 50  0001 C CNN
+	1    3000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:I2C_STANDARDQWIIC J2
+U 1 1 6096D848
+P 4000 1300
+F 0 "J2" H 3772 1545 45  0000 R CNN
+F 1 "I2C_STANDARDQWIIC" H 3772 1461 45  0000 R CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4000 1800 20  0001 C CNN
+F 3 "" H 4000 1300 50  0001 C CNN
+F 4 "CONN-13729" H 3772 1366 60  0000 R CNN "Field4"
+	1    4000 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1000 2400 1000
+Wire Wire Line
+	1200 1100 2300 1100
+Wire Wire Line
+	1200 1200 1350 1200
+Wire Wire Line
+	1200 1300 3200 1300
+Wire Wire Line
+	3000 1200 3000 1800
+Connection ~ 3000 1200
+Wire Wire Line
+	3000 1200 3800 1200
+Wire Wire Line
+	2500 2100 2400 2100
+Wire Wire Line
+	2400 2100 2400 1600
+Connection ~ 2400 1000
+Wire Wire Line
+	2400 1000 3900 1000
+Wire Wire Line
+	2500 2200 2300 2200
+Wire Wire Line
+	2300 2200 2300 1800
+Connection ~ 2300 1100
+Wire Wire Line
+	2300 1100 3900 1100
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 6098C306
+P 1000 2000
+F 0 "JP1" V 1046 2068 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 955 2068 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1000 2000 50  0001 C CNN
+F 3 "~" H 1000 2000 50  0001 C CNN
+	1    1000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 60994755
+P 1000 2500
+F 0 "JP2" V 1046 2568 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 955 2568 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1000 2500 50  0001 C CNN
+F 3 "~" H 1000 2500 50  0001 C CNN
+	1    1000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 60996B6A
+P 1000 3000
+F 0 "JP3" V 1046 3068 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 955 3068 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1000 3000 50  0001 C CNN
+F 3 "~" H 1000 3000 50  0001 C CNN
+	1    1000 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 2500 2500 2500
+Wire Wire Line
+	2500 2400 1250 2400
+Wire Wire Line
+	1250 2400 1250 2000
+Wire Wire Line
+	1250 2000 1150 2000
+Wire Wire Line
+	2500 2600 1250 2600
+Wire Wire Line
+	1250 2600 1250 3000
+Wire Wire Line
+	1250 3000 1150 3000
+$Comp
+L power:GND #PWR0101
+U 1 1 60998766
+P 3200 1400
+F 0 "#PWR0101" H 3200 1150 50  0001 C CNN
+F 1 "GND" H 3205 1227 50  0000 C CNN
+F 2 "" H 3200 1400 50  0001 C CNN
+F 3 "" H 3200 1400 50  0001 C CNN
+	1    3200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6099AA79
+P 3000 4600
+F 0 "#PWR0102" H 3000 4350 50  0001 C CNN
+F 1 "GND" H 3005 4427 50  0000 C CNN
+F 2 "" H 3000 4600 50  0001 C CNN
+F 3 "" H 3000 4600 50  0001 C CNN
+	1    3000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6099B620
+P 800 3200
+F 0 "#PWR0103" H 800 2950 50  0001 C CNN
+F 1 "GND" H 805 3027 50  0000 C CNN
+F 2 "" H 800 3200 50  0001 C CNN
+F 3 "" H 800 3200 50  0001 C CNN
+	1    800  3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3200 800  3200
+Wire Wire Line
+	1000 2700 800  2700
+Wire Wire Line
+	800  2700 800  3200
+Connection ~ 800  3200
+Wire Wire Line
+	1000 2200 800  2200
+Wire Wire Line
+	800  2200 800  2700
+Connection ~ 800  2700
+Wire Wire Line
+	1000 2800 700  2800
+Wire Wire Line
+	700  2800 700  2300
+Wire Wire Line
+	700  1800 1000 1800
+Wire Wire Line
+	1350 1800 1350 1600
+Connection ~ 1000 1800
+Wire Wire Line
+	1000 1800 1350 1800
+Connection ~ 1350 1200
+Wire Wire Line
+	1350 1200 3000 1200
+Wire Wire Line
+	1000 2300 700  2300
+Connection ~ 700  2300
+Wire Wire Line
+	700  2300 700  1800
+Wire Wire Line
+	3200 1400 3200 1300
+Connection ~ 3200 1300
+Wire Wire Line
+	3200 1300 3900 1300
+$Comp
+L Device:LED D1
+U 1 1 609A0664
+P 5250 2100
+F 0 "D1" H 5400 2150 50  0000 C CNN
+F 1 "LED" H 5243 2226 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 2100 50  0001 C CNN
+F 3 "~" H 5250 2100 50  0001 C CNN
+	1    5250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 609B20CB
+P 5250 2300
+F 0 "D2" H 5400 2350 50  0000 C CNN
+F 1 "LED" H 5243 2426 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 2300 50  0001 C CNN
+F 3 "~" H 5250 2300 50  0001 C CNN
+	1    5250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 609B5137
+P 5250 2500
+F 0 "D3" H 5400 2550 50  0000 C CNN
+F 1 "LED" H 5243 2626 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 2500 50  0001 C CNN
+F 3 "~" H 5250 2500 50  0001 C CNN
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 609B514B
+P 5250 2700
+F 0 "D4" H 5400 2750 50  0000 C CNN
+F 1 "LED" H 5243 2826 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 2700 50  0001 C CNN
+F 3 "~" H 5250 2700 50  0001 C CNN
+	1    5250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 609B7445
+P 5250 2900
+F 0 "D5" H 5400 2950 50  0000 C CNN
+F 1 "LED" H 5243 3026 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 2900 50  0001 C CNN
+F 3 "~" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 609B7459
+P 5250 3100
+F 0 "D6" H 5400 3150 50  0000 C CNN
+F 1 "LED" H 5243 3226 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 3100 50  0001 C CNN
+F 3 "~" H 5250 3100 50  0001 C CNN
+	1    5250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 609B746D
+P 5250 3300
+F 0 "D7" H 5400 3350 50  0000 C CNN
+F 1 "LED" H 5243 3426 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 3300 50  0001 C CNN
+F 3 "~" H 5250 3300 50  0001 C CNN
+	1    5250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 609B7481
+P 5250 3500
+F 0 "D8" H 5400 3550 50  0000 C CNN
+F 1 "LED" H 5243 3626 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 3500 50  0001 C CNN
+F 3 "~" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J3
+U 1 1 609FF75B
+P 4300 4200
+F 0 "J3" V 4304 4680 50  0000 L CNN
+F 1 "Conn_02x10_Odd_Even" V 4395 4680 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 4300 4200 50  0001 C CNN
+F 3 "~" H 4300 4200 50  0001 C CNN
+	1    4300 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2100 4600 2100
+Wire Wire Line
+	4700 4000 4700 3900
+Wire Wire Line
+	3800 1500 3800 1200
+Connection ~ 3800 1200
+Wire Wire Line
+	3800 1200 3900 1200
+Wire Wire Line
+	3800 3700 3800 4000
+Wire Wire Line
+	3900 4000 3900 3500
+Wire Wire Line
+	3900 2800 3500 2800
+Wire Wire Line
+	4000 4000 4000 3300
+Wire Wire Line
+	4000 2700 3500 2700
+Wire Wire Line
+	4100 4000 4100 3100
+Wire Wire Line
+	4100 2600 3500 2600
+Wire Wire Line
+	4200 4000 4200 2900
+Wire Wire Line
+	4200 2500 3500 2500
+Wire Wire Line
+	4300 4000 4300 2700
+Wire Wire Line
+	4300 2400 3500 2400
+Wire Wire Line
+	4400 4000 4400 2500
+Wire Wire Line
+	4400 2300 3500 2300
+Wire Wire Line
+	4500 4000 4500 2300
+Wire Wire Line
+	4500 2200 3500 2200
+Wire Wire Line
+	4600 4000 4600 2100
+Connection ~ 4600 2100
+Wire Wire Line
+	4600 2100 5100 2100
+$Comp
+L Device:LED D9
+U 1 1 60A48A5C
+P 5250 3700
+F 0 "D9" H 5400 3750 50  0000 C CNN
+F 1 "LED" H 5243 3826 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 3700 50  0001 C CNN
+F 3 "~" H 5250 3700 50  0001 C CNN
+	1    5250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3700 3800 3700
+Connection ~ 3800 3700
+Wire Wire Line
+	5100 3500 3900 3500
+Connection ~ 3900 3500
+Wire Wire Line
+	3900 3500 3900 2800
+Wire Wire Line
+	5100 3300 4000 3300
+Connection ~ 4000 3300
+Wire Wire Line
+	4000 3300 4000 2700
+Wire Wire Line
+	5100 3100 4100 3100
+Connection ~ 4100 3100
+Wire Wire Line
+	4100 3100 4100 2600
+Wire Wire Line
+	5100 2900 4200 2900
+Connection ~ 4200 2900
+Wire Wire Line
+	4200 2900 4200 2500
+Wire Wire Line
+	5100 2700 4300 2700
+Connection ~ 4300 2700
+Wire Wire Line
+	4300 2700 4300 2400
+Wire Wire Line
+	5100 2500 4400 2500
+Connection ~ 4400 2500
+Wire Wire Line
+	4400 2500 4400 2300
+Wire Wire Line
+	5100 2300 4500 2300
+Connection ~ 4500 2300
+Wire Wire Line
+	4500 2300 4500 2200
+Wire Wire Line
+	3000 4600 3800 4600
+Wire Wire Line
+	4700 4600 4700 4500
+Wire Wire Line
+	3000 3200 3000 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	3800 4500 3800 4600
+Connection ~ 3800 4600
+Wire Wire Line
+	3800 4600 3900 4600
+Wire Wire Line
+	3900 4500 3900 4600
+Connection ~ 3900 4600
+Wire Wire Line
+	3900 4600 4000 4600
+Wire Wire Line
+	4000 4500 4000 4600
+Connection ~ 4000 4600
+Wire Wire Line
+	4000 4600 4100 4600
+Wire Wire Line
+	4100 4500 4100 4600
+Connection ~ 4100 4600
+Wire Wire Line
+	4100 4600 4200 4600
+Wire Wire Line
+	4200 4500 4200 4600
+Connection ~ 4200 4600
+Wire Wire Line
+	4200 4600 4300 4600
+Wire Wire Line
+	4300 4500 4300 4600
+Connection ~ 4300 4600
+Wire Wire Line
+	4300 4600 4400 4600
+Wire Wire Line
+	4400 4500 4400 4600
+Connection ~ 4400 4600
+Wire Wire Line
+	4400 4600 4500 4600
+Wire Wire Line
+	4500 4500 4500 4600
+Connection ~ 4500 4600
+Wire Wire Line
+	4500 4600 4600 4600
+Wire Wire Line
+	4600 4500 4600 4600
+Connection ~ 4600 4600
+Wire Wire Line
+	4600 4600 4700 4600
+$Comp
+L Device:R_US R2
+U 1 1 60A8AA58
+P 1750 1800
+F 0 "R2" V 1700 1600 50  0000 C CNN
+F 1 "3.3k" V 1700 1950 50  0000 C CNN
+F 2 "footprint:C0603" V 1790 1790 50  0001 C CNN
+F 3 "~" H 1750 1800 50  0001 C CNN
+	1    1750 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 60A8E72A
+P 1750 1600
+F 0 "R1" V 1700 1400 50  0000 C CNN
+F 1 "3.3k" V 1700 1750 50  0000 C CNN
+F 2 "footprint:C0603" V 1790 1590 50  0001 C CNN
+F 3 "~" H 1750 1600 50  0001 C CNN
+	1    1750 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1800 1600 1800
+Connection ~ 1350 1800
+Wire Wire Line
+	1600 1600 1350 1600
+Connection ~ 1350 1600
+Wire Wire Line
+	1350 1600 1350 1200
+Wire Wire Line
+	1900 1600 2400 1600
+Connection ~ 2400 1600
+Wire Wire Line
+	2400 1600 2400 1000
+Wire Wire Line
+	1900 1800 2300 1800
+Connection ~ 2300 1800
+Wire Wire Line
+	2300 1800 2300 1100
+Wire Wire Line
+	2500 2900 2400 2900
+Wire Wire Line
+	2400 2900 2400 3700
+Wire Wire Line
+	2400 3700 3800 3700
+Connection ~ 4700 4600
+Wire Wire Line
+	5500 2800 5500 2700
+Wire Wire Line
+	5500 2700 5400 2700
+Wire Wire Line
+	5600 2700 5600 2500
+Wire Wire Line
+	5600 2500 5400 2500
+Wire Wire Line
+	5700 2600 5700 2300
+Wire Wire Line
+	5700 2300 5400 2300
+Wire Wire Line
+	5800 2500 5800 2100
+Wire Wire Line
+	5800 2100 5400 2100
+Wire Wire Line
+	5500 3000 5500 3100
+Wire Wire Line
+	5500 3100 5400 3100
+Wire Wire Line
+	5600 3100 5600 3300
+Wire Wire Line
+	5600 3300 5400 3300
+Wire Wire Line
+	5700 3200 5700 3500
+Wire Wire Line
+	5700 3500 5400 3500
+Wire Wire Line
+	5800 3300 5800 3700
+Wire Wire Line
+	5800 3700 5400 3700
+Wire Wire Line
+	6100 3300 5800 3300
+Wire Wire Line
+	6100 3200 5700 3200
+Wire Wire Line
+	6100 3100 5600 3100
+Wire Wire Line
+	6100 3000 5500 3000
+Wire Wire Line
+	6100 2500 5800 2500
+Wire Wire Line
+	6100 2600 5700 2600
+Wire Wire Line
+	6100 2700 5600 2700
+Wire Wire Line
+	6100 2800 5500 2800
+Wire Wire Line
+	5400 2900 6100 2900
+Wire Wire Line
+	6500 2500 6500 3900
+Connection ~ 6500 2500
+Wire Wire Line
+	6500 1500 6500 1800
+$Comp
+L Device:R_Network09_US RN1
+U 1 1 60AD700F
+P 6300 2900
+F 0 "RN1" V 5683 2900 50  0000 C CNN
+F 1 "R_Network09_US" V 5774 2900 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 6875 2900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6300 2900 50  0001 C CNN
+	1    6300 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4600 6500 4400
+Wire Wire Line
+	4700 4600 6500 4600
+Connection ~ 6500 3900
+Wire Wire Line
+	6500 3900 6500 4100
+$Comp
+L Device:C C1
+U 1 1 60AAC31C
+P 6500 4250
+F 0 "C1" H 6615 4296 50  0000 L CNN
+F 1 "1uF" H 6615 4205 50  0000 L CNN
+F 2 "footprint:C0603" H 6538 4100 50  0001 C CNN
+F 3 "~" H 6500 4250 50  0001 C CNN
+	1    6500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1500 3800 1500
+Wire Wire Line
+	4700 3900 6500 3900
+$Comp
+L Device:C C2
+U 1 1 60B5743D
+P 3800 1650
+F 0 "C2" H 3915 1696 50  0000 L CNN
+F 1 "1uF" H 3915 1605 50  0000 L CNN
+F 2 "footprint:C0603" H 3838 1500 50  0001 C CNN
+F 3 "~" H 3800 1650 50  0001 C CNN
+	1    3800 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 1500
+$Comp
+L power:GND #PWR0104
+U 1 1 60B6F84D
+P 3800 1800
+F 0 "#PWR0104" H 3800 1550 50  0001 C CNN
+F 1 "GND" H 3805 1627 50  0000 C CNN
+F 2 "" H 3800 1800 50  0001 C CNN
+F 3 "" H 3800 1800 50  0001 C CNN
+	1    3800 1800
+	1    0    0    -1  
+$EndComp
+Text Label 4350 1500 0    50   ~ 0
+VCC
+$Comp
+L custom:GS_logo GS1
+U 1 1 60BAB88C
+P 7250 6850
+F 0 "GS1" H 7400 6650 50  0001 C CNN
+F 1 "GS_logo" H 7250 7100 50  0001 C CNN
+F 2 "footprint:gs_logo_200mil" H 7250 6850 50  0001 C CNN
+F 3 "" H 7250 6850 50  0001 C CNN
+	1    7250 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Aesthetics:OSHW-LOGOS LOGO1
+U 1 1 5F04BE7F
+P 9000 6800
+F 0 "LOGO1" H 9000 7050 45  0001 C CNN
+F 1 "OSHW-LOGOS" H 9000 6400 45  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 9000 7100 20  0001 C CNN
+F 3 "" H 9000 6800 50  0001 C CNN
+F 4 "XXX-00000" H 9478 6735 60  0000 L CNN "Field4"
+	1    9000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5F263A35
+P 6250 1800
+F 0 "R3" V 6200 1600 50  0000 C CNN
+F 1 "3.3k" V 6200 1950 50  0000 C CNN
+F 2 "footprint:C0603" V 6290 1790 50  0001 C CNN
+F 3 "~" H 6250 1800 50  0001 C CNN
+	1    6250 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5F266C25
+P 5250 1800
+F 0 "D10" H 5400 1850 50  0000 C CNN
+F 1 "LED" H 5243 1926 50  0001 C CNN
+F 2 "footprint:LED_0603_1608Metric" H 5250 1800 50  0001 C CNN
+F 3 "~" H 5250 1800 50  0001 C CNN
+	1    5250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1800 6500 1800
+Connection ~ 6500 1800
+Wire Wire Line
+	6500 1800 6500 2500
+Wire Wire Line
+	6100 1800 5400 1800
+Wire Wire Line
+	5100 1800 3800 1800
+Connection ~ 3800 1800
+$EndSCHEMATC
