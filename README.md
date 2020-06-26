@@ -7,4 +7,4 @@ Each GPIO and the INT signal go to a header pin and have and LED that indicates 
 You can [order bare boards from OSH Park](https://oshpark.com/shared_projects/W4gAMDcE)
 
 ![front pcb](img/front.png)
-![back pcb)(img/back.png)
+![back pcb](img/back.png)
