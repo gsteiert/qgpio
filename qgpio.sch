@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "QGPIO"
 Date ""
 Rev ""
-Comp ""
+Comp "Steiert Solutions"
 Comment1 ""
 Comment2 ""
 Comment3 ""
