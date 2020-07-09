@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet, Digikey, MPN, Mouser
+C1 C2 ,2,"1uF","footprint:C0603","https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK107BJ105KA-T%20%20&u=M","587-1251-1-ND","EMK107BJ105KA-T","963-EMK107BJ105KA-T"
+D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 ,10,"LED","footprint:LED_0603_1608Metric","http://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF","160-1435-1-ND","LTST-C190KGKT","859-LTST-C190KGKT"
+GS1 ,1,"GS_logo","footprint:gs_logo_200mil","http://dei.steiert.net/"
+J1 J2 ,2,"I2C_STANDARDQWIIC","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","http://www.jst-mfg.com/product/pdf/eng/eSH.pdf?5ec58813d214e","PRT-14417-ND","PRT-14417 ","474-PRT-14417 "
+J3 ,1,"Conn_02x10_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical","https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/77313.pdf","77313-418-20LF-ND  ","77313-418-20LF ","649-77313-418-20LF "
+JP1 JP2 JP3 ,3,"SolderJumper_3_Bridged12","Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",""
+LOGO1 ,1,"OSHW-LOGOS","Symbol:OSHW-Logo2_7.3x6mm_SilkScreen","https://www.oshwa.org/"
+R2 R1 R3 ,3,"10K","footprint:C0603","https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf","311-10KGRCT-ND","RC0603JR-0710KL","603-RC0603JR-0710KL"
+RN1 ,1,"R_Network09_US","Resistor_THT:R_Array_SIP10","http://www.vishay.com/docs/31509/csc.pdf","CSC10KCC-ND","CSC10A0110K0GEK","71-CSC10A0110K0GEK"
+U1 ,1,"PCF8574A","Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm","http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf","568-1074-1-ND ","PCF8574ATD-T","771-PCF8574ATD-T"
