@@ -15,3 +15,4 @@ You can [order bare boards from OSH Park](https://oshpark.com/shared_projects/7l
 
 ![front pcb](img/front.png)
 ![back pcb](img/back.png)
+[![OSHWA US000648](img/OSHW_mark_US000648.png)](https://certification.oshwa.org/us000648.html)
